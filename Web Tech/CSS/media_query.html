@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERY</title>
+    <style>
+        *
+        {
+            align-items: center;
+        }
+        .main
+        {
+            background-color: greenyellow;
+            text-align: center;
+        }
+        .small
+        {
+            background-color:chartreuse;
+            display: none;
+        }
+        .medium
+        {
+            background-color:forestgreen;
+            display: none;
+        }
+        .large
+        {
+            background-color:darkgreen;
+            display: none;
+        }
+        .extralarge
+        {
+            background-color:darkcyan;
+            display: none;
+        }
+        .flex
+        {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 40px;
+        }
+        @media (max-width: 500px) 
+        {
+            .small
+            {
+                display: flex;
+            }
+        }
+        @media (max-width: 500px) 
+        {
+            .medium
+            {
+                display: flex;
+            }
+        }
+        @media (max-width: 500px) 
+        {
+            .large
+            {
+                display: flex;
+            }
+        }
+        @media (max-width: 500px) 
+        {
+            .extralarge
+            {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="small flex"> IM SMALL RESOLUTION DEVICE</div>
+        <div class="medium flex">IM MEDIUM RESOLUTION DEVICE</div>
+        <div class="large flex">IM LARGE RESOLUTION DEVICE</div>
+        <div class="extralarge flex">IM EXTRALARGE RESOLUTION DEVICE</div>
+    </div>
+</body>
+</html>

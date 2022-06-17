@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 2</title>
+    <style>
+        .square
+        {
+            border: solid 2px black;
+            height: 400px;
+            width: 400px;
+            background-color: dimgray;
+            
+            animation-name: A2;
+            animation-duration:10s;
+        }
+        @keyframes A2 
+        {
+            from
+            {
+                background-image: url(./image/dark_netflix_serie_wallpaper_by_derotsen_dbwynjd-fullview.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            to
+            {
+                background-image: url(./image/game-of-thrones-500-piezas-game-of-thrones_H4WMHkQ.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation 2</h1>
+    <div class="square"></div>
+</body>
+</html>

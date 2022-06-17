@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes</title>
+<style>
+    div 
+    {
+        border: 2px;
+    }
+
+    .triangle
+    {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid teal;
+        border-top: 0 solid transparent;
+    }
+    
+    .triangle_reverse
+    {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 0 solid transparent;
+        border-top: 100px solid rebeccapurple;
+    }
+</style>
+</head>
+<body>
+    Triangle
+    <div class="triangle"></div>
+
+    Reverse Triangle
+    <div class="triangle_reverse"></div>
+</body>
+</html>

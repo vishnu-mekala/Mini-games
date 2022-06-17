@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 1</title>
+    <style>
+        .square
+        {
+            border: solid 2px black;
+            height: 200px;
+            width: 200px;
+            background-color: teal;
+            
+            animation-name: A1;
+            animation-duration: 5s;
+        }
+        @keyframes A1 
+        {
+            from
+            {
+                background-color: tomato;
+                border-radius: 0%;
+            }
+            to
+            {
+                background-color: dimgray;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation 1</h1>
+    <div class="square"></div>
+</body>
+</html>
