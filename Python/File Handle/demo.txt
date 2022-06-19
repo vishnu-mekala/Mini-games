@@ -1,4 +1,0 @@
-File is a named location on a disc to store relative information in permanent memory.
-That is why to perform an operation, python needs to communicate with the file system.
-Stream acts a medium between file system and python application.
-Stream can be of two types: Reading stream & Writing stream. 
